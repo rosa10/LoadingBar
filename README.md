@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/rosa10/LoadingBar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <title>Loading Screen</title>
+    <link rel="shortcut icon" href="lambang.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Loading.css">
+    <script type="text/javascript" src="Loading.js"></script>
+</head>
+<div id="preloader">
+    <div id="status"></div>
+    <div class="container">
+        <div class="row">
+            <div class="animationload">
+                <div class="screen"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body style="background-image:url('img/yep.jpg')">
+            <button type="button" class="btn btn-magick btn-lg btn3d" data-toggle="modal" data-target="#tombol">KLIK DISINI UNTUK WEBSITE ITK</button>
+            <div class="modal fade" id="tombol">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Loading bro</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="progress-outer">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:100%; box-shadow:-1px 10px 10px rgb(0, 0, 128));"></div>
+                                    <div class="progress-value">100%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rosa10/LoadingBar/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
